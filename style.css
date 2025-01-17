@@ -1,0 +1,109 @@
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+
+  }
+  
+  .left {
+    left: 0;
+
+  }
+
+    .content-left{
+    margin-left: 20%;
+    margin-top: 10%;
+    }
+  
+  .right {
+    right: 0;
+    overflow-y: auto;
+
+  }
+
+  .content-right{
+    margin-right: 20%;
+    margin-top: 10%;
+    }
+
+body{
+    background-color: #F7F2EB;
+    font-family: 'Sofia Sans';
+    color:  #081F5C;
+}
+
+h1{
+    color: ;
+    font-size: 50px;
+    font-family: ;
+    text-align: left;
+    font-weight: ;
+    margin-bottom: 0%;
+
+}
+
+h2{
+    color: ;
+    font-size: 20px;
+    font-family: ;
+    text-align: left;
+    font-weight: ;
+    margin-top: 0%;
+
+}
+
+h3{
+    color: ;
+    font-size: 18px;
+    font-family: ;
+    text-align: left;
+    font-weight: lighter;
+    margin-right: 30%;
+
+}
+
+h4{
+    color: ;
+    font-size: 14px;
+    font-family: ;
+    text-align: left;
+    font-weight: lighter;
+
+}
+
+h5{
+    color: ;
+    font-size: ;
+    font-family: ;
+    text-align: left;
+    font-weight: ;
+
+}
+
+h6{
+    color: ;
+    font-size: ;
+    font-family: ;
+    text-align: left;
+    font-weight: ;
+
+}
+
+p{
+    color: 16px;
+    font-size: ;
+    font-family: ;
+    font-weight: ;
+
+}
+
+a{
+
+
+}
+
+img{
+
+
+}
