@@ -280,7 +280,8 @@ video {
 }
 
 .pages{
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: var(--tertiary-text);
 }
 
@@ -292,3 +293,38 @@ video {
     font-size: 14px;
     margin-right: 15%;
 }
+
+.menu {
+    transition: transform 0.5s ease; /* Adjust timing and easing as needed */
+    color: var(--tertiary-text);
+}
+
+.menu:hover {
+    transform: scale(1.5) translateX(80px); 
+    -webkit-transform: scale(1.1) translateX(80px);
+    -ms-transform: scale(1.5) translateX(60px);
+    color: var(--primary-text);
+}
+
+.menu {
+    position: relative;
+    margin-left: 6%;
+  }
+  .menu::before {
+    content: '';
+    position: absolute;
+    background: var(--tertiary-text);
+    height: 2px;
+    top: 50%;
+    right:102%;
+    width: 25px;
+    transition: width 0.5s ease;
+    font-weight: 30;
+  }
+  .menu:hover::before {
+    width: 50px;
+    background: var(--primary-text);
+    
+  }
+
+  
