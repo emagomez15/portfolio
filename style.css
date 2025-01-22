@@ -1,4 +1,54 @@
 
+
+
+:root{
+    --base-color: #ffffff;
+    --primary-text:#000000;
+    --secondary-text:#646464;
+    --tertiary-text:#a3a3a3;
+
+}
+
+.darkmode{
+    --base-color: #000000;
+    --primary-text:#ffffff;
+    --secondary-text:#a3a3a3;
+    --tertiary-text: #646464;
+}
+
+#theme-switch{
+    height: 100px;
+    width: 100px;
+    background-color: var(--base-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: 0;
+}
+
+svg{
+    color: var(--primary-text);
+}
+
+#theme-switch svg{
+    fill: var(--primary-text);
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display:none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
 .split {
     height: 100%;
     width: 50%;
@@ -12,8 +62,8 @@
   }
 
     .content-left{
-    margin-left: 20%;
-    margin-top: 10%;
+    margin-left: 160px;
+    margin-top: 30px;
     }
   
   .right {
@@ -23,87 +73,222 @@
   }
 
   .content-right{
-    margin-right: 20%;
-    margin-top: 10%;
+    margin-right: 140px;
+    margin-top: 65px;
     }
 
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('AMRIGOB.TTF') format('truetype');
+}
+
 body{
-    background-color: #F7F2EB;
-    font-family: 'Sofia Sans';
-    color:  #081F5C;
+    font-family: 'Alata';
+    background-color:var(--base-color);
+    color: var(--primary-text);
+}
+
+.contact-me{
+    margin-left: 160px;
+    margin-top: 40px;
 }
 
 h1{
     color: ;
-    font-size: 50px;
-    font-family: ;
+    font-size: 65px;
+    font-family: 'MyCustomFont', sans-serif;
     text-align: left;
-    font-weight: ;
+    font-weight: bold;
     margin-bottom: 0%;
+    margin-top:0px;
 
 }
 
 h2{
-    color: ;
-    font-size: 20px;
-    font-family: ;
+    color: var(--secondary-text);
+    font-size: 26px;
+    font-family: 'MyCustomFont', sans-serif;
     text-align: left;
-    font-weight: ;
-    margin-top: 0%;
+    font-weight: lighter;
+    margin-top: 1%;
 
 }
 
 h3{
-    color: ;
+    color: var(--tertiary-text);
     font-size: 18px;
     font-family: ;
     text-align: left;
     font-weight: lighter;
-    margin-right: 30%;
+    margin-right: 20%;
 
 }
 
 h4{
-    color: ;
-    font-size: 14px;
+    color: var(--tertiary-text);
+    font-size: 18px;
     font-family: ;
     text-align: left;
     font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 10px;
 
 }
 
 h5{
     color: ;
-    font-size: ;
-    font-family: ;
-    text-align: left;
+    font-size: 20px;
+    font-family: 'MyCustomFont', sans-serif;
+    text-align: center;
     font-weight: ;
+    margin-bottom: -2%;
 
 }
 
 h6{
-    color: ;
-    font-size: ;
+    color: var(--secondary-text);
+    font-size: 16px;
     font-family: ;
     text-align: left;
-    font-weight: ;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: 8px;
 
 }
 
 p{
-    color: 16px;
-    font-size: ;
+    color:var(--tertiary-text);
+    font-size: 18px;
     font-family: ;
     font-weight: ;
 
 }
 
 a{
-
+    color: var(--primary-text);
+    margin-top: 0%;
+    text-decoration: none;
 
 }
 
+ul{
+    color:var(--tertiary-text);
+}
+
+i{
+    color:var(--secondary-text);
+    margin-top: 0%;
+}
+
 img{
+    width: 30px;
+}
 
+.media{
+    margin-right: 7px;
+}
 
+.container{
+
+}
+
+video {
+    width: 575px;
+}
+
+#name{
+    width: 575px;
+    margin-right: 5px;
+}
+
+#email{
+    width: 575px;
+}
+
+#subject{
+    width: 1160px;
+
+}
+
+#message{
+    width: 1160px;
+    height: 300px;
+}
+
+#flashlight {
+    pointer-events: none; 
+    position: fixed;
+    border-radius: 50%;
+    width: 800px; 
+    height: 800px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.07) 30%, rgba(0, 0, 0, 0) 70%);
+    mix-blend-mode: screen; 
+    transition: width 0.5s, height 0.5s; 
+    z-index: 10000; 
+  }
+
+.socials svg{
+    fill: var(--primary-text);
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 2%;
+}
+
+.company{
+    color: var(--primary-text);
+    float: left;
+
+}
+
+.projects{
+    color:var(--primary-text);
+}
+
+.role{
+    margin-top:;
+    float:left;
+}
+
+.location{
+    color:var(--secondary-text);
+    float: right;
+    font-weight: bold;
+}
+
+.date{
+    color: var(--secondary-text);
+    float:right;
+    font-size: 13px;
+}
+
+#library{
+    text-align: center;
+    font-size: 50px;
+}
+
+.socials{
+   
+}
+
+.ast{
+    color: red;
+}
+
+.title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pages{
+    margin-right: 40px;
+    color: var(--tertiary-text);
+}
+
+#works{
+    margin-bottom: 25px;
+}
+
+#ending{
+    font-size: 14px;
+    margin-right: 15%;
 }
