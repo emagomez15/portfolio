@@ -99,7 +99,7 @@ h1{
     font-family: 'MyCustomFont', sans-serif;
     text-align: left;
     font-weight: bold;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     margin-top:0px;
 
 }
@@ -137,7 +137,7 @@ h4{
 
 h5{
     color: ;
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'MyCustomFont', sans-serif;
     text-align: center;
     font-weight: ;
@@ -193,7 +193,7 @@ img{
 }
 
 video {
-    width: 575px;
+    width: 300px;
 }
 
 #name{
@@ -277,6 +277,18 @@ video {
 .title{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 22px;
+    color: var(--tertiary-text);
+}
+
+svg #pin{
+    fill: var(--secondary-text);
+}
+
+#location{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
 }
 
 .pages{
@@ -327,4 +339,7 @@ video {
     
   }
 
-  
+.arrow{
+    stroke: var(--primary-text);
+    margin-left: 0;
+}
