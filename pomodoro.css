@@ -1,0 +1,93 @@
+
+:root{
+    --base-color: #FFF2EB;
+    --primary-text:#5C0600;
+    --secondary-text:#AB0B00;
+    --tertiary-text:#62AB59;
+
+}
+
+.darkmode{
+    --base-color: #000000;
+    --primary-text:#ffffff;
+    --secondary-text:#a3a3a3;
+    --tertiary-text: #646464;
+}
+
+#theme-switch{
+    height: 100px;
+    width: 100px;
+    background-color: var(--base-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: 0;
+}
+
+svg{
+    color: var(--primary-text);
+}
+
+#theme-switch svg{
+    fill: var(--primary-text);
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display:none;
+}
+
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
+body{
+    background-color: var(--base-color);
+    text-align: center;
+    font-family: "Advent Pro", serif;
+    color: var(--tertiary-text);
+}
+
+h1{
+    font-family: "Advent Pro", serif;
+    color: var(--secondary-text);
+    font-size: 20rem;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+#time{
+    font-weight: normal;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--primary-text);
+}
+
+#session{
+    font-size: 2rem;
+    margin-top: 0%;
+    color: var(--tertiary-text);
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+a{
+    color: var(--tertiary-text);
+    text-decoration: none;
+    font-weight: bold;
+}
