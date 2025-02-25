@@ -193,7 +193,7 @@ img{
 }
 
 video {
-    width: 300px;
+    width: 350px;
 }
 
 #name{
@@ -342,4 +342,21 @@ svg #pin{
 .arrow{
     stroke: var(--primary-text);
     margin-left: 0;
+}
+
+.post-des{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+.vid-des{
+font-size: 16px;
+margin-top: 5px;
+margin-left: 10px;
+}
+
+.project-format{
+    display: flex;
+    align-items: flex-start;
 }
