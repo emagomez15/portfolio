@@ -95,7 +95,7 @@ body{
 
 h1{
     color: ;
-    font-size: 65px;
+    font-size: 4.5rem;
     font-family: 'MyCustomFont', sans-serif;
     text-align: left;
     font-weight: bold;
@@ -158,7 +158,7 @@ h6{
 
 p{
     color:var(--tertiary-text);
-    font-size: 18px;
+    font-size: 1rem;
     font-family: ;
     font-weight: ;
 
@@ -359,3 +359,64 @@ margin-left: 10px;
     display: flex;
     align-items: flex-start;
 }
+
+.slideshow-container {
+    position: relative;
+    width: 55%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  .slideshow-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.3s;
+    user-select: none;
+    border-radius: 0 3px 3px 0;
+  }
+  .slideshow-arrow:hover {
+    background: rgba(0,0,0,0.8);
+  }
+  .prev {
+    left: 0;
+    width: auto;
+    top: 50%;
+    border-radius: 3px 0 0 3px;
+    margin-top: translateY(-50%);
+  }
+  .next {
+    right: 0;
+    width: auto;
+    top: 50%;
+    border-radius: 0 3px 3px 0;
+    margin-top: translateY(-50%);
+
+  }
+
+  .project-info {
+    display: flex;
+  }
+
+  .project-desc{
+    float: right;
+    width: 40%;
+    margin-left: 3%;
+  }
+
+  .works-info{
+    font-size: 1rem;
+  }
