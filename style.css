@@ -173,21 +173,38 @@ video {
 }
 
 #name{
-    width: 100%;
+    width: 50%;
+    margin-bottom: 1%;
 }
 
 #email{
-    width: 100%;
+    width: 50%;
+    margin-bottom: 1%;
 }
 
 #subject{
-    width:100%;
+    width:50%;
+    margin-bottom: 1%;
 
 }
 
 #message{
-    width: 100%;
+    width: 50%;
     height: 12rem;
+}
+
+#contact-pic{
+    margin-left: 60%;
+    width: 35%;
+    margin-top: -52%;
+    float: right;
+}
+
+.contact-socials{
+    float: right;
+    margin-top: -15.5%;
+    margin-right: -10%;
+    width: 40%;
 }
 
 #flashlight {
@@ -207,6 +224,12 @@ video {
     margin-right: 1.5%;
     margin-left: 1.4%;
     margin-top: 2%;
+}
+
+.contact-socials svg{
+    fill: var(--primary-text);
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .company{
@@ -422,4 +445,17 @@ margin-left: 3%;
 
   .works-info{
     font-size: 1rem;
+  }
+  
+  .contact{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5.5%;
+    overflow: hidden;
+  }
+
+  #contact-desc{
+    font-size: 1.3rem;
+    margin-top: 0%;
+    float:left;
   }
