@@ -196,13 +196,13 @@ video {
 #contact-pic{
     margin-left: 60%;
     width: 35%;
-    margin-top: -52%;
+    margin-top: -2%;
     float: right;
 }
 
 .contact-socials{
     float: right;
-    margin-top: -15.5%;
+    margin-top: 1%;
     margin-right: -10%;
     width: 40%;
 }
@@ -282,6 +282,38 @@ svg #pin{
     text-align: center;
     margin-left: 8%;
     margin-right: 8%;
+    color: var(--tertiary-text);
+}
+
+.pages-1{
+    text-align: right;
+    margin-left: 50%;
+    margin-top: -7%;
+    margin-right: 5%;
+    color: var(--tertiary-text);
+}
+
+.pages-2{
+    text-align: right;
+    margin-left: 50%;
+    margin-top: -54%;
+    margin-right: 5%;
+    color: var(--tertiary-text);
+}
+
+#home{
+    margin-right: 18%;
+    color: var(--tertiary-text);
+
+}
+
+#portfolioGallery{
+    margin-right: 18%;
+    color: var(--tertiary-text);
+
+}
+
+#contactMe{
     color: var(--tertiary-text);
 }
 
@@ -458,4 +490,75 @@ margin-left: 3%;
     font-size: 1.3rem;
     margin-top: 0%;
     float:left;
+  }
+
+  .galleryTop{
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: -3%;
+  }
+
+
+  .galleryBottom{
+    width: 100%;
+    text-align: center;
+    margin-left: -3%;
+  }
+
+  #bottomimg{
+    margin-top: -5px;
+  }
+
+  .galleryImages{
+    width: 120%;
+    border-radius: 5%;
+
+  }
+
+  #galleryGoatbarn{
+    margin-right: 3%;
+    margin-top: 10%;
+  }
+  #galleryStepping{
+    margin-right: 3%;
+    margin-top: 10%;
+  }
+  #galleryHarbor{
+    margin-right: 0%;
+    margin-top: 10%;
+  }
+  #galleryGlass{
+    margin-right: 3%;
+  }
+  #galleryMondrian{
+    margin-right: 3%;
+  }
+  #galleryCaldogno{
+    margin-right: 0%;
+  }
+
+  .portfolioImgDesc{
+    font-size: .8rem;
+    text-align: left;
+    margin-left: -30%;
+  }
+
+  .column {
+    float: left;
+    width: 32.33%;
+    padding: 3px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .caption{
+    text-align: left;
+    font-size: 1rem;
+    
   }
